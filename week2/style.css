@@ -1,0 +1,31 @@
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	margin: 10% 10%;
+	background-color:#222233;
+	color:#FF2977;}
+
+h1{
+	font-size: 60px;
+	font-family: 'Josefin Sans', sans-serif;}
+
+p{
+	margin:10% 20% 20% 20%; 
+	font-size: 25px;
+	font-family: 'Julius Sans One', sans-serif;}
+
+a{
+	color:#FF2977;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;}
+
+ul{
+	list-style-type: none;}
+
+a:hover{
+	color:#42FF29;
+}
+
+a:visited{
+	color:#42FF29;
+}
