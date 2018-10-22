@@ -5,14 +5,14 @@ body{
 h1{
 	text-align: center;
 	font-family: 'Bangers', cursive;
-    margin: 50px;
+        margin: 50px;
 }
 
 p{
 	text-align: center;
 	font-family: 'Karla', sans-serif;
-    margin: 50px; 
-    font-size: 
+        margin: 50px; 
+        font-size: 
 }
 
 a{
@@ -21,23 +21,23 @@ a{
 }
 
 ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
 }
 
 li a{
-    display: block;
-    width: 33.3%;
-    background-color: #000;
-    float: left;
-    color: blanchedalmond;
-    text-align: center;
-    margin: 40px 0px;
-    font-size: 2rem;
+      display: block;
+      width: 33.3%;
+      background-color: #000;
+      float: left;
+      color: blanchedalmond;
+      text-align: center;
+      margin: 40px 0px;
+      font-size: 2rem;
 }
 
 img{
-    width: 99.9%;
+      width: 99.9%;
 }
 
