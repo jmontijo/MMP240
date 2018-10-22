@@ -4,14 +4,17 @@ body{
 	
 h1{
 	text-align: center;
+	font-family: 'Bangers', cursive;
 }
 
 p{
 	text-align: left;
+	font-family: 'Karla', sans-serif;
 }
 
 a{
 	text-decoration: none;
+	font-family: 'Bangers', cursive;
 }
 
 ul{
