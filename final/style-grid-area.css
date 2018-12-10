@@ -56,7 +56,6 @@
         display:grid;
         grid-gap: 5px;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
         grid-template-areas:
         "logo logo logo"
         "nav nav nav"
@@ -65,7 +64,6 @@
         "footer footer footer";   
     }
 }
-
 .logo{
     grid-area:logo;
 }
@@ -98,6 +96,12 @@
         "challenge3"
         "challenge4"
         "challenge5"
+        "winner1"
+        "winner2"
+        "winner3"
+        "winner4"
+        "winner5"
+        "winner6"
         "footer";
     }
 }
@@ -105,15 +109,120 @@
     .challenges{
         display:grid;
         grid-gap: 5px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         grid-template-areas:
-        "logo logo logo logo logo"
-        "nav nav nav nav nav"
-        ". challenge1 . challenge2 ."
-        ". . challenge3 . ."
-        ".challenge4 . challenge5 ."
-        "footer footer footer";   
+        "logo logo logo logo logo logo"
+        "nav nav nav nav nav nav"
+        "challenge1 challenge1 challenge2 challenge2 challenge3 challenge3"
+        "challenge4 challenge4 challenge4 challenge5 challenge5 challenge5"
+        "winner1 winner1 winner2 winner2 winner3 winner3"
+        "winner4 winner4 winner5 winner5 winner6 winner6"
+        "footer footer footer footer footer footer";   
     }
 }
+.logo{
+    grid-area:logo;
+}
+.nav{
+    grid-area:nav;
+}
+.challenge1{
+    grid-area:challenge1;
+}
+.challenge2{
+    grid-area:challenge2;
+}
+.challenge3{
+    grid-area: challenge3;
+}
+.challenge4{
+    grid-area:challenge4;
+}
+.challenge5{
+    grid-area:challenge5;
+}
+.winner1{
+    grid-area: winner1;
+}
+.winner2{
+    grid-area: winner2;
+}
+.winner3{
+    grid-area: winner3;
+}
+.winner4{
+    grid-area: winner4;
+}
+.winner5{
+    grid-area: winner5;
+}
+.winner6{
+    grid-area: winner6;
+}
+.footer{
+    grid-area: footer;
+}
 
+@media screen and (max-width: 450px){
+    .about{
+        display:grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "logo"    
+        "nav"
+        "about"
+        "footer"
+    }
+}
+@media screen and (min-width: 450px){
+    .about{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "logo"    
+        "nav"
+        "about"
+        "footer";
+    }
+
+}
+.logo{
+    grid-area:logo;
+}
+.nav{
+    grid-area:nav;
+}
+.about{
+    grid-area:about;
+}
+.footer{
+    grid-area:footer;
+}
+
+@media screen and (max-width: 450px){
+    .contact{
+        display:grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "logo"    
+        "nav"
+        "contact"
+        "footer"
+    }
+}
+@media screen and (min-width: 450px){
+    .contact{
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "logo"    
+        "nav"
+        "contact"
+        "footer";
+    }
+
+}
