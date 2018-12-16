@@ -91,17 +91,12 @@
         grid-template-areas:
         "logo"    
         "nav"
+        "challenge"
         "challenge1"
         "challenge2"    
         "challenge3"
         "challenge4"
         "challenge5"
-        "winner1"
-        "winner2"
-        "winner3"
-        "winner4"
-        "winner5"
-        "winner6"
         "footer";
     }
 }
@@ -113,10 +108,9 @@
         grid-template-areas:
         "logo logo logo logo logo logo"
         "nav nav nav nav nav nav"
+        "challenge challenge challenge challenge challenge challenge"
         "challenge1 challenge1 challenge2 challenge2 challenge3 challenge3"
         "challenge4 challenge4 challenge4 challenge5 challenge5 challenge5"
-        "winner1 winner1 winner2 winner2 winner3 winner3"
-        "winner4 winner4 winner5 winner5 winner6 winner6"
         "footer footer footer footer footer footer";   
     }
 }
@@ -125,6 +119,9 @@
 }
 .nav{
     grid-area:nav;
+}
+.challenge{
+    grid-area: challenge;
 }
 .challenge1{
     grid-area:challenge1;
@@ -140,6 +137,50 @@
 }
 .challenge5{
     grid-area:challenge5;
+}
+.footer{
+    grid-area: footer;
+}
+@media screen and (max-width: 450px){
+    .champs{
+        display:grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "logo"    
+        "nav"
+        "winners"
+        "winner1"
+        "winner2"
+        "winner3"
+        "winner4"
+        "winner5"
+        "winner6"
+        "footer";
+    }
+}
+@media screen and (min-width: 450px){
+    .champs{
+        display:grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas:
+        "logo logo logo logo logo logo"
+        "nav nav nav nav nav nav"
+        "winners winners winners winners winners winners"
+        "winner1 winner1 winner2 winner2 winner3 winner3"
+        "winner4 winner4 winner5 winner5 winner6 winner6"
+        "footer footer footer footer footer footer";   
+    }
+}
+.logo{
+    grid-area:logo;
+}
+.nav{
+    grid-area:nav;
+}
+.winners {
+    grid-area: winners;
 }
 .winner1{
     grid-area: winner1;
@@ -163,6 +204,7 @@
     grid-area: footer;
 }
 
+
 @media screen and (max-width: 450px){
     .about{
         display:grid;
@@ -171,7 +213,7 @@
         grid-template-areas:
         "logo"    
         "nav"
-        "about"
+        "info"
         "footer"
     }
 }
@@ -183,7 +225,7 @@
         grid-template-areas:
         "logo"    
         "nav"
-        "about"
+        "info"
         "footer";
     }
 
@@ -194,8 +236,8 @@
 .nav{
     grid-area:nav;
 }
-.about{
-    grid-area:about;
+.info{
+    grid-area:info;
 }
 .footer{
     grid-area:footer;
@@ -209,8 +251,9 @@
         grid-template-areas:
         "logo"    
         "nav"
-        "contact"
-        "footer"
+        "subject"
+        "form"
+        "footer";
     }
 }
 @media screen and (min-width: 450px){
@@ -221,8 +264,25 @@
         grid-template-areas:
         "logo"    
         "nav"
-        "contact"
+        "subject"
+        "form"
         "footer";
     }
 
 }
+.logo{
+    grid-area:logo;
+}
+.nav{
+    grid-area:nav;
+}
+.subject{
+    grid-area:subject;
+}
+.form{
+    grid-area:form;
+}
+.footer{
+    grid-area:footer;
+}
+
