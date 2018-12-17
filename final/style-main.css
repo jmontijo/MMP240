@@ -18,7 +18,8 @@ body{
     color:white;
 } 
 .nav{
-   background-color: ; 
+   overflow: hidden;
+   position: fixed;
 }
 .featuredimage{
     background-color: ;
