@@ -16,7 +16,7 @@ body{
     color: white;
 }
 .logo a:hover:not(.active){
-    color:black;
+    color:#29a329;
 } 
 .featuredimage{
     background-color: ;
