@@ -17,10 +17,6 @@ body{
 .logo a:hover:not(.active){
     color:white;
 } 
-.nav{
-   overflow: hidden;
-   position: fixed;
-}
 .featuredimage{
     background-color: ;
 }
