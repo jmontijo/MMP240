@@ -54,11 +54,11 @@ ul {
 }
 li {
     float:left;
+    width: 20%;
 }    
 li a {
     display: block;
     text-align: center;
-    width: 20%;
     text-decoration: none;
     color: black;
 }
