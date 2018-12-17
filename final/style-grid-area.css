@@ -1,4 +1,4 @@
-@media screen and (max-width: 450px){
+@media screen and (max-width: 750px){
     .index{
         display:grid;
         grid-gap: 5px;
@@ -10,7 +10,7 @@
         "footer"
     }
 }
-@media screen and (min-width: 450px){
+@media screen and (min-width: 750px){
     .index{
         display: grid;
         grid-gap: 5px;
@@ -37,7 +37,7 @@
 }
 
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 750px){
     .menu{
         display:grid;
         grid-gap: 5px;
@@ -52,7 +52,7 @@
         "footer";
     }
 }
-@media screen and (min-width: 450px){
+@media screen and (min-width: 750px){
     .menu{
         display:grid;
         grid-gap: 5px;
@@ -88,7 +88,7 @@
     grid-area:footer;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 750px){
     .challenges{
         display:grid;
         grid-gap: 5px;
@@ -105,7 +105,7 @@
         "footer";
     }
 }
-@media screen and (min-width: 450px){
+@media screen and (min-width: 750px){
     .challenges{
         display:grid;
         grid-gap: 5px;
@@ -146,7 +146,7 @@
 .footer{
     grid-area: footer;
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 750px){
     .champs{
         display:grid;
         grid-gap: 5px;
@@ -164,7 +164,7 @@
         "footer";
     }
 }
-@media screen and (min-width: 450px){
+@media screen and (min-width: 750px){
     .champs{
         display:grid;
         grid-gap: 5px;
@@ -210,7 +210,7 @@
 }
 
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 750px){
     .about{
         display:grid;
         grid-gap: 5px;
@@ -222,7 +222,7 @@
         "footer"
     }
 }
-@media screen and (min-width: 450px){
+@media screen and (min-width: 750px){
     .about{
         display: grid;
         grid-gap: 5px;
@@ -248,7 +248,7 @@
     grid-area:footer;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 750px){
     .contact{
         display:grid;
         grid-gap: 5px;
@@ -261,7 +261,7 @@
         "footer";
     }
 }
-@media screen and (min-width: 450px){
+@media screen and (min-width: 750px){
     .contact{
         display: grid;
         grid-gap: 5px;
