@@ -57,7 +57,7 @@ h2{
     color: black;
 }
 .h3 a:hover:not(.active){
-    color:white;
+    color:#29a329;
 } 
 p{
     font-size: 150%;
