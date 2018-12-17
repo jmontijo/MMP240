@@ -23,6 +23,13 @@ body{
 .featuredimage{
     background-color: ;
 }
+.winners a{
+    text-decoration: none;
+    color: black;
+}
+.winners a:hover:not(.active){
+    color:white;
+} 
 .front{
     margin-left: auto;
     margin-right: auto;
