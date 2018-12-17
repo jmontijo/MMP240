@@ -45,6 +45,7 @@
         grid-template-areas:
         "logo"    
         "nav"
+        "titlemenu"
         "specials"
         "regular"    
         "juice"
@@ -59,6 +60,7 @@
         grid-template-areas:
         "logo logo logo"
         "nav nav nav"
+        "titlemenu titlemenu titlemenu"
         "specials specials specials"
         "regular regular juice"
         "footer footer footer";   
@@ -69,6 +71,9 @@
 }
 .nav{
     grid-area:nav;
+}
+.titlemenu{
+    grid-area:titlemenu;
 }
 .specials{
     grid-area:specials;
