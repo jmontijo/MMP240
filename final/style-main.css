@@ -61,10 +61,25 @@ li a:hover:not(.active) {
     background-color: #29a329;
     color: white;
 }
-.challenge1, .challenge2, .challenge3, .challenge4, .challenge5{
+.challenge1{
     background-color: #98e698;
-    padding-top: 0px;
+
 }
+.challenge2{
+    background-color: #98e698;
+ 
+}
+.challenge3{
+    background-color: #98e698;
+
+}
+.challenge4{
+    background-color: #98e698;
+}
+.challenge5{
+    background-color: #98e698;
+}
+
 .description a{
     text-decoration: none;
     color: black;
