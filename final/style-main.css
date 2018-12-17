@@ -52,6 +52,9 @@ ul {
     padding:;
     overflow: hidden;
 }
+li (
+    float:left;
+}    
 li a {
     display: block;
     text-align: center;
