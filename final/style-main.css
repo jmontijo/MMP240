@@ -40,6 +40,9 @@ body{
     margin-right: auto;
     background-color:#ffcc99;
 }
+.form{
+    padding:10%;
+}
 .h1 a{
     text-decoration: none;
     color: black;
