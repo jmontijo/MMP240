@@ -127,6 +127,7 @@ li a:hover:not(.active) {
 }
 .subject{
     background-color:#ffcc99;
+    width:60%;
 }
 .footer{
     background-color: #c14f1c;
