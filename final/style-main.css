@@ -26,7 +26,7 @@ body{
     color: black;
 }
 .winners a:hover:not(.active){
-    color:white;
+    color:#c14f1c;
 } 
 .front{
     margin-left: auto;
