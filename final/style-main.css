@@ -8,15 +8,6 @@ body{
     background-color:#c14f1c ;
     font-family: 'Sedgwick Ave Display', cursive;
 }
-.logo a{
-    text-decoration: none;
-    color: black;
-}
-.logo a:hover:not(.active) {
-    background-color: #29a329;
-    color: white;
-}
-
 .nav{
    background-color: ; 
 }
@@ -34,27 +25,23 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.footer{
-    background-color: #c14f1c;
+.h1 a{
+    text-decoration: none;
+    color: black;
 }
-h1{
-    font-size: 400%;
-    margin: 0%;
+.h1 a:hover:not(.active){
+    color:white;
 }
 h2{
     background-color: #29a329; 
 }
-h3 a {
-    display: block;
-    text-align: center;
-    padding:;
+.h3 a{
     text-decoration: none;
     color: black;
 }
-h3 a:hover:not(.active) {
-    background-color: #29a329;
-    color: white;
-}
+.h3 a:hover:not(.active){
+    color:white;
+} 
 p{
     font-size: 150%;
 }
@@ -81,13 +68,13 @@ li a:hover:not(.active) {
     color: white;
 }
 .specials{
-    backgroung-color:#ffcc99;
+    background-color:#ffcc99;
 }
 .regular{
-    backgroung-color:#ffcc99;
+    background-color:#ffcc99;
 }
 .juice{
-    backgroung-color:#ffcc99;
+    background-color:#ffcc99;
 }
 .challenge1{
     background-color: #98e698;
