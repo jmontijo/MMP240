@@ -36,6 +36,17 @@ h1{
 h2{
     background-color: #29a329; 
 }
+h3 a {
+    display: block;
+    text-align: center;
+    padding:;
+    text-decoration: none;
+    color: black;
+}
+h3 a:hover:not(.active) {
+    background-color: #29a329;
+    color: white;
+}
 p{
     font-size: 150%;
 }
