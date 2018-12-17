@@ -8,6 +8,14 @@ body{
     background-color:#c14f1c ;
     font-family: 'Sedgwick Ave Display', cursive;
 }
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.logo a:hover:not(.active){
+    color:white;
+} 
 .nav{
    background-color: ; 
 }
