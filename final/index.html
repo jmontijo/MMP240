@@ -9,6 +9,16 @@
     <link rel="stylesheet" href="style-main.css" type="text/css" media="all">
 	<link rel="stylesheet" href="style-grid-area.css" type="text/css" media="all">
     <!--<link rel="stylesheet" href="style-grid.css" type="text/css" media="all">-->
+    
+    <script type="text/javascript">
+	    var nav = document.getElementByID('nav');
+	    	window.onscroll = function () {
+			if(window.pageYOffset > 100){
+				nav.style.position + "fixed";
+				nav.style.top = 100;
+			}
+		}
+    </script>
 </head>
 
 <body class="index">
