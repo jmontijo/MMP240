@@ -61,6 +61,15 @@ li a:hover:not(.active) {
     background-color: #29a329;
     color: white;
 }
+.specials{
+    backgroung-color:#ffcc99;
+}
+.regular{
+    backgroung-color:#ffcc99;
+}
+.juice{
+    backgroung-color:#ffcc99;
+}
 .challenge1{
     background-color: #98e698;
 
